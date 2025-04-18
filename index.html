@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <!-- Schema.org markup -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "ProfessionalService",
+        "name": "Espacio Azim",
+        "description": "Centro multidisciplinario de bienestar y desarrollo personal",
+        "image": "https://espacioazim.com/images/logo3.png",
+        "url": "https://espacioazim.com",
+        "telephone": "+59899675017",
+        "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Ciudad",
+            "addressRegion": "Departamento",
+            "addressCountry": "Uruguay"
+        },
+        "openingHoursSpecification": {
+            "@type": "OpeningHoursSpecification",
+            "dayOfWeek": [
+                "Monday",
+                "Tuesday",
+                "Wednesday",
+                "Thursday",
+                "Friday"
+            ],
+            "opens": "09:00",
+            "closes": "18:00"
+        }
+    }
+    </script>
+
+    <!-- Meta tags -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Espacio Azim - Centro multidisciplinario de bienestar y desarrollo personal. Servicios de terapia, coaching y desarrollo infantil en Uruguay. Atención especializada en fonoaudiología, psicomotricidad y psicología.">
+    <meta name="keywords" content="terapia, coaching, desarrollo personal, bienestar, espacio azim, terapia psicológica, fonoaudiología, psicomotricidad, terapia infantil, desarrollo infantil, salud mental">
+    <meta name="author" content="Espacio Azim">
+    <meta name="robots" content="index, follow">
+    <meta name="google-site-verification" content="YOUR_VERIFICATION_CODE">
+    <meta property="og:title" content="Espacio Azim - Centro de Bienestar y Desarrollo Personal">
+    <meta property="og:description" content="Centro multidisciplinario de bienestar y desarrollo personal. Servicios especializados en terapia, coaching y desarrollo infantil.">
+    <meta property="og:image" content="https://espacioazim.com/images/logo3.png">
+    <meta property="og:url" content="https://espacioazim.com">
+    <meta property="og:type" content="website">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Espacio Azim - Centro de Bienestar y Desarrollo Personal">
+    <meta name="twitter:description" content="Centro multidisciplinario de bienestar y desarrollo personal. Servicios especializados en terapia, coaching y desarrollo infantil.">
+    <meta name="twitter:image" content="https://espacioazim.com/images/logo3.png">
+    <title>Espacio Azim - Centro de Bienestar y Desarrollo Personal</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Dancing+Script:wght@600&display=swap" rel="stylesheet">
+    <link rel="canonical" href="https://espacioazim.com">
+    <link rel="icon" type="image/png" href="images/logo3.png">
+    <link rel="preload" as="image" href="images/logo3.png">
+    <link rel="preload" as="image" href="images/hero-image.jpg">
+    
+    <!-- Preconnect -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://cdnjs.cloudflare.com">
+    
+    <!-- DNS Prefetch -->
+    <link rel="dns-prefetch" href="https://fonts.googleapis.com">
+    <link rel="dns-prefetch" href="https://fonts.gstatic.com">
+    <link rel="dns-prefetch" href="https://cdnjs.cloudflare.com">
+    
+    <!-- Preload critical CSS -->
+    <link rel="preload" href="styles.css" as="style">
+    
+    <!-- Preload critical JavaScript -->
+    <link rel="preload" href="script.js" as="script">
+
+    <!-- Modal para anuncio emergente -->
+    <div id="announcementModal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <div class="announcement-text">
+                <h3>¡Importante!</h3>
+                <p>Nos encontramos trabajando arduamente para poder inaugurar nuestro centro pronto.</p>
+                <p><a href="#contacto" class="reserve-link">Reservar lugar</a></p>
+            </div>
+        </div>
+    </div>
+</head>
+<body>
+    <a href="#" class="back-to-top" aria-label="Volver arriba">
+        <i class="fas fa-arrow-up"></i>
+    </a>
+
+    <header>
+        <nav>
+            <div class="logo">
+                <img src="images/logo3.png" alt="Espacio Azim Logo" class="logo-img" aria-label="Logo de Espacio Azim">
+            </div>
+            <div class="social-header">
+                <a href="https://wa.me/59899675017" class="social-icon" target="_blank" aria-label="Contactar por WhatsApp">
+                    <i class="fab fa-whatsapp"></i>
+                </a>
+                <a href="https://instagram.com/espacioazim" class="social-icon" target="_blank" aria-label="Ver Instagram espacioazim">
+                    <i class="fab fa-instagram"></i>
+                </a>
+            </div>
+            <div class="nav-toggle" aria-label="Menú de navegación">
+                <i class="fas fa-bars"></i>
+            </div>
+            <div class="nav-links" role="navigation" aria-label="Navegación principal">
+                <a href="#quienes-somos" class="scroll-link" aria-label="Ir a Quiénes Somos">Quiénes Somos</a>
+                <a href="#servicios" class="scroll-link" aria-label="Ir a Nuestros Servicios">Nuestros Servicios</a>
+                <a href="#instalaciones" class="scroll-link" aria-label="Ir a Nuestras Instalaciones">Nuestras Instalaciones</a>
+                <a href="#contacto" class="scroll-link" aria-label="Ir a Contacto">Contacto</a>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section id="hero" aria-label="Sección principal">
+            <h1 class="sr-only" itemprop="name">Espacio Azim - Centro de Bienestar y Desarrollo Personal</h1>
+            <img src="images/logo3.png" alt="Espacio Azim - Centro de Bienestar y Desarrollo Personal" class="hero-logo" loading="eager" width="300" height="100" aria-label="Logo de Espacio Azim">
+        </section>
+
+        <section id="quienes-somos" class="scroll-section" aria-label="Quiénes Somos">
+            <h2 itemprop="description">Quiénes Somos</h2>
+            <div class="content">
+                <p itemprop="description">En Espacio Azim, acompañamos a niños, niñas, adolescentes y adultos en su desarrollo integral a través de un enfoque multidisciplinario. 
+                    Creamos un entorno seguro y estimulante, para acompañar a nuestros usuarios a través de un proceso de superación, aceptación, respeto y resiliencia.
+                    Intentamos que cada uno, tanto familias como profesionales den lo mejor de sí, para que este espacio sea un lugar acogedor y productivo.</p>
+                <blockquote>
+                    <q>"La superación es amiga de la tenacidad y compañera del esfuerzo"</q>
+                </blockquote>
+            </div>
+        </section>
+
+        <section id="servicios" class="scroll-section" aria-label="Nuestros Servicios">
+            <h2 itemprop="serviceType">Nuestros Servicios</h2>
+            <div class="services-grid">
+                <div class="service-card" itemscope itemtype="https://schema.org/Service" aria-label="Fonoaudiología">
+                    <i class="fas fa-comment-medical"></i>
+                    <h3 itemprop="name">Fonoaudiología</h3>
+                    <p itemprop="description">Evaluación y tratamiento de trastornos de la comunicación, lenguaje, habla y voz. Atención especializada para niños y adultos.</p>
+                </div>
+                <div class="service-card" itemscope itemtype="https://schema.org/Service" aria-label="Psicomotricidad">
+                    <i class="fas fa-running"></i>
+                    <h3 itemprop="name">Psicomotricidad</h3>
+                    <p itemprop="description">Desarrollo integral de capacidades físicas, emocionales y cognitivas. Programas personalizados para niños y adolescentes.</p>
+                </div>
+                <div class="service-card" itemscope itemtype="https://schema.org/Service" aria-label="Psicología">
+                    <i class="fas fa-brain"></i>
+                    <h3 itemprop="name">Psicología</h3>
+                    <p itemprop="description">Atención y apoyo para el bienestar emocional y la salud mental. Terapia individual y familiar. Especialistas en desarrollo infantil.</p>
+                </div>
+                <div class="service-card" aria-label="Psicopedagogía">
+                    <i class="fas fa-book-reader"></i>
+                    <h3>Psicopedagogía</h3>
+                    <p>Evaluación y tratamiento de dificultades en el aprendizaje</p>
+                </div>
+                <div class="service-card" aria-label="Terapia Ocupacional">
+                    <i class="fas fa-hands-helping"></i>
+                    <h3>Terapia Ocupacional</h3>
+                    <p>Desarrollo de habilidades para la vida diaria y la autonomía</p>
+                </div>
+                <div class="service-card" aria-label="Apoyo Escolar">
+                    <i class="fas fa-graduation-cap"></i>
+                    <h3>Apoyo Escolar</h3>
+                    <p>Acompañamiento y refuerzo en el proceso de aprendizaje</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="instalaciones" class="scroll-section" aria-label="Nuestras Instalaciones">
+            <h2>Nuestras Instalaciones</h2>
+            <div class="location-container">
+                <div class="address-info">
+                    <div class="address-card">
+                        <p>Nos encontramos ubicados en Comercio 2407, en el barrio "La Unión". A unos 300 metros de la Avenida 8 de Octubre</p>
+                        <p>Montevideo, Uruguay</p>
+                    </div>
+                </div>
+                <div class="map-container">
+                    <iframe 
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3272.8673831724734!2d-56.20517792427755!3d-34.88721997307155!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x959f802baa924db7%3A0x7c1b58e6d5f2e8bd!2sComercio%202407%2C%2011800%20Montevideo%2C%20Departamento%20de%20Montevideo!5e0!3m2!1ses!2suy!4v1680969000000!5m2!1ses!2suy" 
+                        width="100%" 
+                        height="400" 
+                        style="border:0;" 
+                        allowfullscreen="" 
+                        loading="lazy" 
+                        referrerpolicy="no-referrer-when-downgrade">
+                    </iframe>
+                </div>
+            </div>
+        </section>
+
+        <section id="contacto" class="scroll-section" aria-label="Contacto">
+            <h2>Contacto</h2>
+            <div class="contact-container">
+                <div class="contact-form">
+                    <form id="contact-form" aria-label="Formulario de contacto">
+                        <div class="form-group">
+                            <label for="nombre">Nombre</label>
+                            <input type="text" id="nombre" name="name" required aria-required="true">
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email" required aria-required="true">
+                        </div>
+                        <div class="form-group">
+                            <label for="telefono">Teléfono</label>
+                            <input type="tel" id="telefono" name="phone" required aria-required="true">
+                        </div>
+                        <div class="form-group">
+                            <label for="mensaje">Mensaje</label>
+                            <textarea id="mensaje" name="message" required aria-required="true"></textarea>
+                        </div>
+                        <div class="form-group">
+                            <button type="submit" class="submit-btn">Enviar Mensaje</button>
+                        </div>
+                    </form>
+                    <div class="social-links" style="margin-top: 2rem; text-align: center;">
+                        <a href="https://wa.me/59899675017" class="social-icon" target="_blank" aria-label="Contactar por WhatsApp">
+                            <i class="fab fa-whatsapp"></i>
+                        </a>
+                        <a href="https://instagram.com/espacioazim" class="social-icon" target="_blank" aria-label="Ver Instagram espacioazim">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                        <a href="mailto:espacioazim@outlook.com" class="social-icon" aria-label="Enviar email">
+                            <i class="fas fa-envelope"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Espacio Azim. Todos los derechos reservados.</p>
+    </footer>
+
+    <!-- GSAP CDN -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+    
+    <!-- EmailJS script -->
+    <script src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
