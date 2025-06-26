@@ -20,3 +20,4 @@ Este es un proyecto web que muestra información sobre el espacio y la astronom�
 1. Clona este repositorio
 2. Abre el archivo `index.html` en tu navegador
 3. Explora la página y disfruta del contenido
+
